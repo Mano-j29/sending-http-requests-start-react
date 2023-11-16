@@ -12,7 +12,10 @@
     "backend": {
       "name": "backend",
       "command": "yarn backend",
-      "runAtStart": true
+      "runAtStart": true,
+      "preview": {
+        "port": 3000
+      }
     },
     "dev": {
       "name": "dev",
@@ -24,13 +27,11 @@
     },
     "build": {
       "name": "build",
-      "command": "yarn build",
-      "runAtStart": false
+      "command": "yarn build"
     },
     "preview": {
       "name": "preview",
-      "command": "yarn preview",
-      "runAtStart": false
+      "command": "yarn preview"
     }
   }
 }
